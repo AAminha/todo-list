@@ -1,0 +1,47 @@
+.todo-list-template {
+    background : rgb(252, 241, 213);
+    width : 500px;
+    box-shadow : 0px 3px 6px rgba(0,0,0,0.16), 0px 3px 6px rgba(0,0,0,0.23);
+    margin : 0 auto;
+    margin-top : 4rem;
+    border-radius: 5px;
+}
+
+.title {
+    padding : 2rem;
+    padding-top : 1rem;
+    padding-bottom : 1rem;
+    font-size : 2rem;
+    font-weight : 500;
+    background : rgb(37, 133, 88);
+    color : white;
+    border-top-left-radius : 5px;
+    border-top-right-radius : 5px;
+}
+
+.task-left {
+    align-items: center;
+    padding : 2rem;
+    padding-top : 0.5rem;
+    padding-bottom : 0.5rem;
+    background : rgb(255, 232, 174);
+    font-size : 1.3rem;
+    font-weight : 700;
+    color : rgb(37, 133, 88);
+}
+
+.form-wrapper {
+    padding : 1rem;
+    border-bottom : 1px solid #189154;
+}
+
+.todos-wrapper {
+    min-height : 5rem;
+}
+
+/*
+margin : 바깥 여백 영역 설정 
+padding : 안쪽 여백 영역 설정
+font-weight : 두께
+min-height : 요소의 최소의 높이.
+*/

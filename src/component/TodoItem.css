@@ -1,0 +1,64 @@
+.todo-item {
+    padding : 1rem;
+    display : flex;
+    align-items : center;
+    transition : all 0.15s;
+    user-select : none;
+}
+
+.todo-item:hover .remove {
+    opacity : 1;
+}
+
+.todo-item + .todo-item {
+    border-top : 1.5px solid rgb(199, 189, 163);
+}
+
+.check-box {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    border: 1px solid #ced4da;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    cursor: pointer;
+    color : #e64980;
+}
+
+.check-mark {
+    font-size : 2rem;
+    line-height : 1.5rem;
+    margin-left : 0.3rem;
+    color : #189154;
+    font-weight : 800;
+    cursor: pointer;
+}
+
+.remove {
+    margin-right : 1rem;
+    color : #e64980;
+    opacity : 0;
+    cursor : pointer;
+}
+
+.todo-text {
+    flex: 1;
+    word-break : break-all;
+}
+
+.checked {
+    text-decoration : line-through;
+    color : #adb5bd;
+}
+
+/*
+align-items : 항목정렬
+transition : 
+user-select : 
+opacity : 불투명도 (0~1)
+flex : 1 -> 체크, 엑스를 제외한 공간 다 채우기
+word-break : 텍스트가 자신의 콘텐츠 박스 밖으로 오버플로할때 줄 바꿈을 할지말지
+text-decoration : 글씨의 장식(선) 색을 지정 (line-through는 중간에 줄 긋기)
+*/

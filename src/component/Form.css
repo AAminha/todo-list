@@ -1,0 +1,37 @@
+.form {
+    display: flex;
+}
+
+.form input {
+    padding-left : 0.5rem;
+    flex: 1;
+    font-size: 1.25rem;
+    outline: none;
+    border: none;
+    border-bottom : 1px solid #36c07b;
+}
+
+.create-button {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+    background: #189154;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.create-button:hover {
+    background : #2fbd76;
+}
+
+/*
+border-radius : 테두리 둥글게
+cursor : 그쪽에 마우스를 갖다가 놓으면 어떤 모양이 나오는지
+outline / border : 테두리 (분명 둘 사이의 차이점이 있긴 한데..알아보자)
+hover : 그쪽에 마우스를 가져다 놓으면 생기는 변화. (여기선 배경색 변경)
+flex 순서 : flex-grow flex-shrink flex-basis
+*/
