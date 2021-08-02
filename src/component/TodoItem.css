@@ -52,13 +52,3 @@
     text-decoration : line-through;
     color : #adb5bd;
 }
-
-/*
-align-items : 항목정렬
-transition : 
-user-select : 
-opacity : 불투명도 (0~1)
-flex : 1 -> 체크, 엑스를 제외한 공간 다 채우기
-word-break : 텍스트가 자신의 콘텐츠 박스 밖으로 오버플로할때 줄 바꿈을 할지말지
-text-decoration : 글씨의 장식(선) 색을 지정 (line-through는 중간에 줄 긋기)
-*/

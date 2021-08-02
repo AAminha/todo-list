@@ -38,10 +38,3 @@
 .todos-wrapper {
     min-height : 5rem;
 }
-
-/*
-margin : 바깥 여백 영역 설정 
-padding : 안쪽 여백 영역 설정
-font-weight : 두께
-min-height : 요소의 최소의 높이.
-*/

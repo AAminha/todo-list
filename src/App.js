@@ -12,8 +12,6 @@ class App extends React.Component {
     todos : []
   }
 
-   // e.target은 이벤트가 발생한 DOM을 가르킴
-  // e.target.value를 조회하면 현재 input의 value를 알 수 있다.
   handleChange = (e) => {
     this.setState({ input : e.target.value });
   }
@@ -91,10 +89,5 @@ class App extends React.Component {
     );
   }
 }
-
-/*
-컴포넌트끼리 직접 데이터를 전달할때는 부모를 통해서 대화하는 것이 좋음(App.js)
-state는 렌더링에 그 값을 필요로 하는 컴포넌트에 먼저 추가.
-*/
 
 export default App;

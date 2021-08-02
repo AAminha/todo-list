@@ -4,11 +4,6 @@ import React from "react";
 import TodoItem from "./TodoItem";
 
 class TodoItemList extends React.Component {
-
-    // 컴포넌트 life cycle method 중 하나
-    // 컴포넌트가 리렌더링을 할지 말지 정함.
-    // todos 값이 바뀔 때 리렌더링됨.
-    
     shouldComponentUpdate (nextProps, nextState) {
         return this.props.todos !== nextProps.todos;
     }

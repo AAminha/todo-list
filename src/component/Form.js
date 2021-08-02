@@ -26,8 +26,4 @@ const Form = ({value, onChange, onCreate, onKeyPress}) => {
 // onKeyPress : 인풋에서 키를 입력할 때 실행되는 함수. 이 함수는 나중에 Enter가 눌렸을 때
 // onCreate를 한 것과 동일한 작업을 하기 위해서 사용
 
-/*
-중괄호{} 안에 있는 애들은 함수인가보다.
-*/
-
 export default Form;
